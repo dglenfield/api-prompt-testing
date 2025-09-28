@@ -22,7 +22,7 @@ public partial class PromptTestingApp : Form
     private readonly Button _sendButton = new();
     private readonly TextBox _responseTextBox = new();
     private readonly TextBox _systemPromptTextBox = new();
-    private readonly TextBox _userPromptTextBox = new();       
+    private readonly TextBox _userPromptTextBox = new();
     
     public PromptTestingApp()
     {
@@ -108,6 +108,7 @@ public partial class PromptTestingApp : Form
         SuspendLayout();
 
         // Form
+        this.Icon = Resources.AppIcon;
         this.Size = new Size(800, 600);
         this.Text = "Sonar API Prompt Tester";
         
