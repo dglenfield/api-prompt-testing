@@ -1,2 +1,3 @@
-# api-prompt-testing
-Simple standalone tool for prompt engineering and rapid API experimentation.
+# API Prompt Testing
+
+Simple standalone tools for prompt engineering and rapid API experimentation.
